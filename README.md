@@ -24,6 +24,13 @@ This application will be built in NetBeans, running on Spring Boot. The database
     - To kill the server, press 'ctrl+c', then 'y', then 'enter'
   - While run.bat is open, you may access web pages at http://localhost:8080/***
 
+## Program structure
+The main pieces of a Spring Boot Web Application are:
+  - Controllers: receive and respond to requests from a user
+  - Entities: map a database object
+  - Repositories: serve to perform operations on a database, specific to individual object types
+  - Templates: html documents that have 'blank' spots that controllers fill in
+
 
 [Windows instructions]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=http%3A%2F%2Fwww.mkyong.com%2Fmaven%2Fhow-to-install-maven-in-windows%2F&ei=aTdnVfzYLcHZoATf9YPYBA&usg=AFQjCNGrEu-bkS6la8GWg_PbcW5uVNrxuA
 
