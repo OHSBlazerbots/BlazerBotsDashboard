@@ -31,6 +31,9 @@ The main pieces of a Spring Boot Web Application are:
   - Repositories: serve to perform operations on a database, specific to individual object types
   - Templates: html documents that have 'blank' spots that controllers fill in
 
+## Resources
+  - [How to make repositories and entities][Resource data]
+
 
 [Windows instructions]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=http%3A%2F%2Fwww.mkyong.com%2Fmaven%2Fhow-to-install-maven-in-windows%2F&ei=aTdnVfzYLcHZoATf9YPYBA&usg=AFQjCNGrEu-bkS6la8GWg_PbcW5uVNrxuA
 
@@ -41,3 +44,5 @@ The main pieces of a Spring Boot Web Application are:
 [MySQL]: https://dev.mysql.com/downloads/mysql/
 
 [NetBeans]: https://netbeans.org/downloads/index.html
+
+[Resource data]: https://spring.io/guides/gs/accessing-data-jpa/
