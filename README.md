@@ -33,6 +33,7 @@ The main pieces of a Spring Boot Web Application are:
 
 ## Resources
   - [How to make repositories and entities][Resource data]
+  - [How to write access methods in repositories][Methods in repositories] 
 
 
 [Windows instructions]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=http%3A%2F%2Fwww.mkyong.com%2Fmaven%2Fhow-to-install-maven-in-windows%2F&ei=aTdnVfzYLcHZoATf9YPYBA&usg=AFQjCNGrEu-bkS6la8GWg_PbcW5uVNrxuA
@@ -46,3 +47,5 @@ The main pieces of a Spring Boot Web Application are:
 [NetBeans]: https://netbeans.org/downloads/index.html
 
 [Resource data]: https://spring.io/guides/gs/accessing-data-jpa/
+
+[Methods in repositories]: http://docs.spring.io/spring-data/jpa/docs/1.9.0.M1/reference/html/#jpa.entity-persistence
