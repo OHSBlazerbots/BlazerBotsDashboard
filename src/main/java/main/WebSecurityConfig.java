@@ -36,11 +36,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         CustomPasswordEncoder cpe = new CustomPasswordEncoder("test");
         
         auth.jdbcAuthentication().dataSource(dataSource).usersByUsernameQuery("SELECT * FROM people WHERE username = ?").passwordEncoder(cpe);
-        System.out.println("Password: " + cpe.encodePassword("password", "test"));
     }
 }
-
-/**
-PPassword: 468faff8392f2576dbf6605a1b369c1b08fb89991
-*          468faff8392f2576dbf6605a1b369c1b08fb8999
- */
