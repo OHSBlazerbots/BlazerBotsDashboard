@@ -35,6 +35,23 @@ The main pieces of a Spring Boot Web Application are:
   - [How to make repositories and entities][Resource data]
   - [How to write access methods in repositories][Methods in repositories] 
 
+## Examples
+## How to save objects:
+```
+Carrier carrier = new Carrier("Test", "test1");
+
+carrierRepository.save(carrier);
+carrier = carrierRepository.findByName("Test").get(0);
+       
+User user1 = new User("user1", cpe.encodePassword("pass",""));
+User user2 = new User("user2", cpe.encodePassword("pass",""));
+       
+user1.setCarrier(carrier);
+user2.setCarrier(carrier);
+        
+userRepository.save(user1);
+userRepository.save(user2);
+```
 
 [Windows instructions]: https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0CCgQFjAC&url=http%3A%2F%2Fwww.mkyong.com%2Fmaven%2Fhow-to-install-maven-in-windows%2F&ei=aTdnVfzYLcHZoATf9YPYBA&usg=AFQjCNGrEu-bkS6la8GWg_PbcW5uVNrxuA
 
